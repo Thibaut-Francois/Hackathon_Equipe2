@@ -1,4 +1,5 @@
 * {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200&display=swap");
   padding: 0;
   margin: 0;
   overflow-x: hidden;
@@ -7,10 +8,30 @@
 header section {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding-inline: 12%;
+}
+header section button {
+  height: 50px;
+  width: 180px;
+  background-color: #FFFFFF;
+  border: solid 5px #581D74;
+  font-size: medium;
 }
 header menu {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  background-color: #581D74;
+  height: 95px;
+  width: full;
+}
+header menu a {
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 main {
