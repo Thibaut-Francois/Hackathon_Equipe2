@@ -62,6 +62,14 @@ main section .window {
 }
 main .text {
   display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+main .text .left {
+  width: 33%;
+}
+main .text .right {
+  width: 66%;
 }
 
 footer {
