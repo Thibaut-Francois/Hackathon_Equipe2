@@ -74,10 +74,26 @@ main .text .right {
 
 footer {
   display: flex;
+  background-color: #581D74;
+  color: white;
   justify-content: space-around;
   margin-top: 100px;
   padding: 10px;
 }
+footer img{
+  height: 30px;
+}
 footer div {
   display: flex;
-}/*# sourceMappingURL=style.css.map */
+  padding: 20px;
+}
+footer div a{
+  display: flex;
+  padding: 5px 20px;
+}
+footer div b{
+  padding: 5px 15px;
+}
+
+
+/*# sourceMappingURL=style.css.map */
