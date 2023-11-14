@@ -1,4 +1,46 @@
 *{
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
+}
+
+header{
+    section{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    menu{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+main{
+    margin: 0 5%;
+
+    div{
+        img{
+            height: 300px;
+            display: flex;
+            margin: 0 auto;
+        }
+    }
+
+    section{
+        div{
+            img{
+                height: 100px;
+            }
+        }
+    }
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+
+    div{
+        display: flex;
+    }
 }
