@@ -17,7 +17,7 @@ header{
 }
 
 main{
-    margin: 0 5%;
+    margin: 100px 15%;
 
     div{
         img{
@@ -33,12 +33,36 @@ main{
                 height: 100px;
             }
         }
+
+        .btn_window{
+            position: fixed;
+            right :3px;
+            top:150px;
+
+            img{
+                height: 80px;
+                width: 80px;
+            }
+        }
+
+        .window{
+            display: none;
+            height: 200px;
+            width: 200px;
+            background-color: lightblue;
+        }
+    }
+
+    .text{
+        display: flex;
     }
 }
 
 footer{
     display: flex;
     justify-content: space-around;
+    margin-top: 100px;
+    padding: 10px;
 
     div{
         display: flex;
