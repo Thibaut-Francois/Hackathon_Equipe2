@@ -55,6 +55,16 @@ main{
 
     .text{
         display: flex;
+        flex-direction: row;
+        width: 100%;
+
+        .left{
+            width: 33%;
+        }
+
+        .right{
+            width: 66%;
+        }
     }
 }
 
