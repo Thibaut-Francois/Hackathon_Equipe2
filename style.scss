@@ -73,7 +73,7 @@ main{
         }
 
         .window{
-            //display: none;
+            display: none;
             height: 200px;
             width: 200px;
             position: fixed;
@@ -82,41 +82,25 @@ main{
             background-color: lightblue;
             flex-direction: column;
 
-            button{
-                margin: 5px;
-                height: 45px;
-                font-size: 30px;
-            }
-        }
 
-        .animate{
             animation-duration: 0.75s;
             animation-name: animation_window;
-
+    
             @keyframes animation_window {
                 from {
                     right :-200px;
                 }
-
+    
                 to {
                     right :3px;
                 }
             }
-        }
 
-        .animate_back{
-            animation-duration: 0.75s;
-            animation-name: animation_window;
-            
 
-            @keyframes animation_window_back {
-                from {
-                    right :3px;
-                }
-
-                to {
-                    right :-200px;
-                }
+            button{
+                margin: 5px;
+                height: 45px;
+                font-size: 30px;
             }
         }
     }

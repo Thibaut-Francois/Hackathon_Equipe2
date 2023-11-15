@@ -61,6 +61,7 @@ main section .btn_window img:hover {
   filter: drop-shadow(0 0 5px rgb(28, 27, 27));
 }
 main section .window {
+  display: none;
   height: 200px;
   width: 200px;
   position: fixed;
@@ -68,13 +69,6 @@ main section .window {
   top: 300px;
   background-color: lightblue;
   flex-direction: column;
-}
-main section .window button {
-  margin: 5px;
-  height: 45px;
-  font-size: 30px;
-}
-main section .animate {
   animation-duration: 0.75s;
   animation-name: animation_window;
 }
@@ -86,17 +80,10 @@ main section .animate {
     right: 3px;
   }
 }
-main section .animate_back {
-  animation-duration: 0.75s;
-  animation-name: animation_window;
-}
-@keyframes animation_window_back {
-  from {
-    right: 3px;
-  }
-  to {
-    right: -200px;
-  }
+main section .window button {
+  margin: 5px;
+  height: 45px;
+  font-size: 30px;
 }
 main .text {
   display: flex;
