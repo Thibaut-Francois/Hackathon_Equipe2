@@ -58,19 +58,66 @@ main{
         .btn_window{
             position: fixed;
             right :3px;
-            top:150px;
+            top:200px;
+            height: 90px;
+            width: 90px;
 
             img{
                 height: 80px;
                 width: 80px;
             }
+
+            img:hover{
+                filter: drop-shadow(0 0 5px rgb(28, 27, 27));
+            }
         }
 
         .window{
-            display: none;
+            //display: none;
             height: 200px;
             width: 200px;
+            position: fixed;
+            right :-200px;
+            top:300px;
             background-color: lightblue;
+            flex-direction: column;
+
+            button{
+                margin: 5px;
+                height: 45px;
+                font-size: 30px;
+            }
+        }
+
+        .animate{
+            animation-duration: 0.75s;
+            animation-name: animation_window;
+
+            @keyframes animation_window {
+                from {
+                    right :-200px;
+                }
+
+                to {
+                    right :3px;
+                }
+            }
+        }
+
+        .animate_back{
+            animation-duration: 0.75s;
+            animation-name: animation_window;
+            
+
+            @keyframes animation_window_back {
+                from {
+                    right :3px;
+                }
+
+                to {
+                    right :-200px;
+                }
+            }
         }
     }
 

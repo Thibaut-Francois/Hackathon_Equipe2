@@ -49,17 +49,54 @@ main section div img {
 main section .btn_window {
   position: fixed;
   right: 3px;
-  top: 150px;
+  top: 200px;
+  height: 90px;
+  width: 90px;
 }
 main section .btn_window img {
   height: 80px;
   width: 80px;
 }
+main section .btn_window img:hover {
+  filter: drop-shadow(0 0 5px rgb(28, 27, 27));
+}
 main section .window {
-  display: none;
   height: 200px;
   width: 200px;
+  position: fixed;
+  right: -200px;
+  top: 300px;
   background-color: lightblue;
+  flex-direction: column;
+}
+main section .window button {
+  margin: 5px;
+  height: 45px;
+  font-size: 30px;
+}
+main section .animate {
+  animation-duration: 0.75s;
+  animation-name: animation_window;
+}
+@keyframes animation_window {
+  from {
+    right: -200px;
+  }
+  to {
+    right: 3px;
+  }
+}
+main section .animate_back {
+  animation-duration: 0.75s;
+  animation-name: animation_window;
+}
+@keyframes animation_window_back {
+  from {
+    right: 3px;
+  }
+  to {
+    right: -200px;
+  }
 }
 main .text {
   display: flex;
