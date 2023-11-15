@@ -15,6 +15,20 @@ function App() {
     codeUrl: "./map/Build/Build3.wasm",
   });
 
+ // let btn = document.querySelector(".App-logo");
+ //let window_test = document.querySelector(".window");
+//let onScreen = false;
+//btn.addEventListener("click", function () {
+    //if (onScreen == true) {
+     // window_test.style.display = "none";
+     // onScreen = false;
+    //} else {
+    //  window_test.style.display = "flex";
+     // onScreen = true;
+   // }
+  //});
+  
+
   return (
     <div className="App">
       <header>
@@ -38,11 +52,14 @@ function App() {
     <main>
         <section>
             <div className="btn_window">
-            <img src={btn} className="App-logo" alt="logo" />
+                <img src={btn} className="App-logo" alt="button paramètres" />
             </div>
 
-            <div className="window">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, minima at obcaecati placeat sit quos cupiditate laudantium possimus facere labore animi dolores velit illo ipsam repellat repellendus unde. Doloribus, adipisci!</p>
+            <div className="window animate">
+                <button>Glaucome</button>
+                <button>Daltonisme</button>
+                <button>Flou</button>
+                <button>Aveugle</button>
             </div>
         </section>
         <div>
@@ -91,6 +108,9 @@ function App() {
         </div>
         
     </main>
+    <script>
+        
+    </script>
 
     <footer>
         <div>
