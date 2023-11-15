@@ -9,15 +9,19 @@ btn.addEventListener("click", (fonction) => {
     if (onScreen == true) {
         console.log('D')
 
-        window_test.classList.remove("animate")
-        window_test.classList.add("animate_back")
+        window_test.style.display = "none"
+
+        // window_test.classList.remove("animate")
+        // window_test.classList.add("animate_back")
 
         onScreen = false
     }else{
         console.log('C')
 
-        window_test.classList.remove("animate_back")
-        window_test.classList.add("animate")
+        window_test.style.display = "flex"
+
+        // window_test.classList.remove("animate_back")
+        // window_test.classList.add("animate")
 
         onScreen = true
     }
