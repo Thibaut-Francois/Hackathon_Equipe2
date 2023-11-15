@@ -1,0 +1,251 @@
+
+@media (prefers-reduced-motion: no-preference) {
+}
+.App-link {
+  color: #faf9fa;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200&display=swap');
+
+header section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 12%;
+}
+header section button {
+  height: 50px;
+  width: 180px;
+  background-color: #FFFFFF;
+  border: solid 5px #581D74;
+  font-size: medium;
+}
+header menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #581D74;
+  height: 95px;
+  width: full;
+}
+header menu a {
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+}
+main {
+  margin: 100px 15%;
+}
+main div img {
+  height: auto;
+  width: 90%;
+  display: flex;
+  margin-bottom: 5%;
+}
+main section div img {
+  height: 100px;
+}
+main section .btn_window {
+  position: fixed;
+  right: 125px;
+  top: 225px;
+
+}
+main section .btn_window img {
+  height: 80px;
+  width: 80px;
+}
+main section .window {
+  display: none;
+  height: 200px;
+  width: 200px;
+  background-color: lightblue;
+}
+main section .right p{
+  color: #0c0101;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+}
+main section .righty p{
+  color: #0c0101;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+}
+main section .right h2{
+  color: #1A1A1A;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 52px;
+  
+}
+main section .righty h2{
+  color: #1A1A1A;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 52px;
+}
+main section .left h3{
+  color: #581D74;
+  padding-inline: 20%;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 5vh;
+  
+}
+main section .lefty h3{
+  color: #581D74;
+  padding-inline: 20%;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 5vh;
+}
+main .text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+}
+main .text .left {
+  background-color: #E1E1E1;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-left: 1vw;
+  height: 95vh;
+  width: 17vw;
+}
+.lefty{
+  background-color: #E1E1E1;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-left: 1vw;
+  height: 55vh;
+  width: 17vw;
+}
+main .text .right {
+  margin-top: 10vh;
+  width: 75vw;
+  height: 80vh;
+  margin-left: -4vw;
+}
+.righty{
+  margin-top: 2vh;
+  width: 75vw;
+  height: 80vh;
+  margin-left: -4vw;
+}
+.presidente{
+  display: flex;
+  gap: 2vw;
+  justify-content: center;
+  margin-top: 5%;
+}
+.presidente img{
+  width: 20%;
+  height: auto
+}
+.presentation{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5%;
+}
+.nom-pres{
+  color: #581D74;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+
+}
+.fonction-pres{
+  color: #0c0101;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.myParagraph {
+  font-size: 16px;
+  color: #0c0101;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 3%;
+  /* add more styles as needed */
+}
+.myParagraphone{
+  color: #0c0101;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 1%;
+}
+
+.text-center { 
+  text-align:center;
+ }
+
+.progressbar-wrapper {
+  margin-top: 20px;
+  margin-inline: 10px;
+  background-color: #f9f9f9;
+  color: white;
+  border: solid 3px #0c0101;
+  border-radius: 25px;
+  height: 30px;
+  width: 250px;
+}
+
+.progressbar {
+  background-color: #581D74;
+  text-align: right;
+  width: 60%;
+  height: 28px;
+  font-size: 20px;
+  border: solid 1px #0c0101;
+  border-radius: 15px;
+}
+
+.mp3 {
+  width: 60%;
+}
+
+footer {
+  display: flex;
+  background-color: #581D74;
+  color: white;
+  justify-content: space-around;
+  margin-top: 100px;
+  padding: 10px;
+}
+footer img{
+  height: 30px;
+}
+footer div {
+  display: flex;
+  padding: 25px;
+}
+footer div a{
+  display: flex;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+}
+footer div p{
+  padding: 5px 15px;
+  font-family: "Roboto", sans-serif;
+}
