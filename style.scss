@@ -77,13 +77,13 @@ main{
             height: 200px;
             width: 200px;
             position: fixed;
-            right :-200px;
+            right :3px;
             top:300px;
             background-color: lightblue;
             flex-direction: column;
 
 
-            animation-duration: 0.75s;
+            animation-duration: 0.50s;
             animation-name: animation_window;
     
             @keyframes animation_window {
@@ -101,6 +101,11 @@ main{
                 margin: 5px;
                 height: 45px;
                 font-size: 30px;
+            }
+
+            button:hover{
+                background-color: #581D74;
+                color: white;
             }
         }
     }
